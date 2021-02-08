@@ -45,7 +45,7 @@ Software:
     SPECIAL_CONSIDERATIONS—Special consideration for application  
     ASK_AMT—Funding amount requested
 
-        Note, many of these feature columns were later converted to "dummy" variables using the "one hot encoder" method from scikit-learn in order to convert them to numerical format (discussed later).  Thus, the number of input features ultimately used by the neural network was far greater (43) than the nine features listed above.  Nevertheless, the input data values for the model was ultimately derived from these aforementioned columns.
+     Note, many of these feature columns were later converted to "dummy" variables using the "one hot encoder" method from scikit-learn in order to convert them to numerical format (discussed later).  Thus, the number of input features ultimately used by the neural network was far greater (43) than the nine features listed above.  Nevertheless, the input data values for the model was ultimately derived from these aforementioned columns.
 
 - Next, the number of unique values from each column was calculated using the nunique() method from the pandas library.  This allowed us to visualize which columns had more than 10 unique values and, thus, would need bucketing into an "other" column to reduce the number of dummy columns that would result when converting categorical variables to numerical format later.  Note, two categorical variables, "APPLICATION_TYPE" and "CLASSIFICATION" fell into this category.  "ASK_AMT" was a numerical column and thus did not need attention.
 

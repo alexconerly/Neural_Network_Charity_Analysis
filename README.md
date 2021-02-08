@@ -71,7 +71,7 @@ Software:
 
 In the initial model created using the keras neural network library, the following parameters and techniques were employed to create and evaluate the neural network:
 
-- The length of the input for the neural network was 43 features and the output was set to one neuron.  Twice the number of input layers is a good starting point for establishing the number of neurons for the first hidden layer.Thus, the first attempt at a model design included 80 neurons for the first hidden layer.  In the second hidden layer, 30 layers was chosen as it was enough to adquate additional processing but not too much to result in overfitting to our model which would render the deep learning model unable to perform well on alternate datasets.  Both of these layers employed the "relu" activation function and the final output layer utilized the "sigmoid" function to classify the result as a 0 or 1 (unsuccessful vs successful prediction).
+- The length of the input for the neural network was 43 features and the output was set to one neuron.  Twice the number of input layers is a good starting point for establishing the number of neurons for the first hidden layer.  Thus, the first attempt at a model design included 80 neurons for the first hidden layer.  In the second hidden layer, 30 layers was chosen as it was enough to adquate additional processing but not too much to result in overfitting to our model which would render the deep learning model unable to perform well on alternate datasets.  Both of these layers employed the "relu" activation function and the final output layer utilized the "sigmoid" function to classify the result as a 0 or 1 (unsuccessful vs successful prediction).
 
     ![](images_for_readme/neural_network_model.png)
 
